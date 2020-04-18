@@ -1,0 +1,34 @@
+{
+  "name": "cynthia-blog-publisher",
+  "version": "1.0.0",
+  "description": "A script to publish blog posts in the CynthiaOS website.",
+  "main": "blog-publisher.js",
+  "dependencies": {
+    "pretty": "^2.0.0",
+    "readline": "^1.3.0",
+    "showdown": "^1.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node blog-publisher.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CynthiaOS/website.git"
+  },
+  "keywords": [
+    "cynthia",
+    "cynthia",
+    "os",
+    "website",
+    "blog",
+    "blog",
+    "publisher"
+  ],
+  "author": "Mufeed VH",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/CynthiaOS/website/issues"
+  },
+  "homepage": "https://github.com/CynthiaOS/website#readme"
+}
