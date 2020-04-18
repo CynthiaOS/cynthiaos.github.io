@@ -59,7 +59,7 @@ module.exports = {
                         <a href="https://cynthia.mufeedvh.com/"><img src="/assets/images/cynthia-transparent-720.png" height="200" width="200"></a>
                         <a style="text-decoration: none; color: black;" href="https://cynthia.mufeedvh.com/"><h1>CynthiaOS<span class="blink">_</span></h1></a>
                         <hr>
-                        [<a href="https://cynthia.mufeedvh.com/blog/" target="_noblank">blog/</a>] [<a href="https://github.com/CynthiaOS" target="_noblank">github/</a>] [<a href="https://twitter.com/mufeedvh" target="_noblank">twitter/</a>]
+                        [<a href="https://cynthia.mufeedvh.com/blog/">blog/</a>] [<a href="https://github.com/CynthiaOS">github/</a>] [<a href="https://twitter.com/mufeedvh">twitter/</a>]
                         <hr>
                         <br>
                     </center>
