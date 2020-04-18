@@ -13,7 +13,6 @@ const showdown = require('showdown');
 // `readline` to accept stdin input from console
 const readline = require('readline');
 
-
 // publish the blog
 function publishBlog(blog_title, blog_permalink, blog_description, md_file) {
     try {
