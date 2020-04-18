@@ -1,5 +1,7 @@
 # CynthiaOS Blog Publisher Script
 
+This script is used to publish blog posts in the CynthiaOS Website.
+
 ## Prerequisites:
 - NodeJS
 - npm
