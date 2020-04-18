@@ -1,0 +1,47 @@
+/*
+    author  : 'Mufeed VH (@mufeedvh)';
+    repo    : 'CynthiaOS/website (GitHub)';
+    mail    : 'cynthiaos@mufeedvh.com';
+    website : 'https://cynthia.mufeedvh.com/';
+    license : 'MIT License | Copyright (c) 2020 CynthiaOS';
+*/
+
+@font-face {
+    font-family: 'JetBrainsMono';
+    src: url('../assets/fonts/JetBrainsMono-Regular.eot');
+    src: url('../assets/fonts/JetBrainsMono-Regular.eot') format('embedded-opentype'),
+         url('../assets/fonts/JetBrainsMono-Regular.woff2') format('woff2'),
+         url('../assets/fonts/JetBrainsMono-Regular.woff') format('woff'),
+         url('../assets/fonts/JetBrainsMono-Regular.ttf') format('truetype');
+}
+
+body {
+    background-color: #f0f6ff;
+    font-family: 'JetBrainsMono';
+}
+
+p {
+    font-size: 19px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.blink {
+    animation: blinkingAnim 0.8s infinite;
+}
+
+@keyframes blinkingAnim {
+    0%   { color: #000000;     }
+    49%  { color: transparent; }
+    50%  { color: transparent; }
+    99%  { color: transparent; }
+    100% { color: #000000;     }
+}
+
+@media only screen and (max-device-width: 480px) {
+    p {
+        font-size: 19px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
