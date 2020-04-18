@@ -1,6 +1,6 @@
-# CynthiaOS Blog Publisher Script
+# Blog Publisher Script
 
-This script is used to publish blog posts in the CynthiaOS Website.
+[`blog-publisher.js`](https://github.com/CynthiaOS/website/blob/master/blog/blog-publisher.js) - This script is used to publish blog posts in the CynthiaOS Website.
 
 ## Prerequisites:
 - NodeJS
@@ -17,7 +17,7 @@ This script is used to publish blog posts in the CynthiaOS Website.
 
 ## How Does It Work?
 
-When you run the `blog-publisher.js` script with the required inputs ie: _**title**_, _**permalink**_, **description**, and _**the blog markdown file**_, it creates a directory (that becomes the permalink) for the blog and converts the Markdown content to HTML, then combines and beautifies the blog content with the `header` and `footer` HTML templates with the template renderer (`template.js`).
+When you run the `blog-publisher.js` script with the required inputs ie: _**title**_, _**permalink**_, _**description**_, and _**the blog markdown file**_, it creates a directory (that becomes the permalink) for the blog and converts the Markdown content to HTML, then combines and beautifies the blog content with the `header` and `footer` HTML templates with the template renderer (`template.js`).
 
 It also sets the `title` and `description` inside the SEO tags.
 
