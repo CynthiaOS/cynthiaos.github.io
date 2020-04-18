@@ -13,30 +13,6 @@ const showdown = require('showdown');
 // `readline` to accept stdin input from console
 const readline = require('readline');
 
-// getting the title, permalink, and the source markdown file from console input
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
-
-// prompt for the title of the blog post
-rl.question('[>] Enter a title for your blog (My Blog Title): ', (answer) => {
-    var blog_title = answer.toString().trim();
-    // prompt for the permalink of the blog post
-    rl.question('[>] Enter a permalink for your blog (my-blog-link): ', (answer) => {
-        var blog_permalink = answer.toString().trim();
-        // prompt for the description of the blog post (meta description)
-        rl.question('[>] Enter a description for your blog (meta description): ', (answer) => {
-            var blog_description = answer.toString().trim();
-            // prompt for the path to the blog markdown file
-            rl.question('[>] Enter the path to MD file (my-blog.md): ', (answer) => {
-                var md_file = answer.toString().trim();
-                publishBlog(blog_title, blog_permalink, blog_description, md_file);
-                rl.close();
-            });
-        });
-    });    
-});
 
 // publish the blog
 function publishBlog(blog_title, blog_permalink, blog_description, md_file) {
@@ -81,3 +57,28 @@ function publishBlog(blog_title, blog_permalink, blog_description, md_file) {
         }        
     }
 }
+
+// getting the title, permalink, and the source markdown file from console input
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+// prompt for the title of the blog post
+rl.question('[>] Enter a title for your blog (My Blog Title): ', (answer) => {
+    var blog_title = answer.toString().trim();
+    // prompt for the permalink of the blog post
+    rl.question('[>] Enter a permalink for your blog (my-blog-link): ', (answer) => {
+        var blog_permalink = answer.toString().trim();
+        // prompt for the description of the blog post (meta description)
+        rl.question('[>] Enter a description for your blog (meta description): ', (answer) => {
+            var blog_description = answer.toString().trim();
+            // prompt for the path to the blog markdown file
+            rl.question('[>] Enter the path to MD file (my-blog.md): ', (answer) => {
+                var md_file = answer.toString().trim();
+                publishBlog(blog_title, blog_permalink, blog_description, md_file);
+                rl.close();
+            });
+        });
+    });    
+});
